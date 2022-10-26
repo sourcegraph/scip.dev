@@ -1,0 +1,119 @@
+html{
+	 font-size: 62.5%;
+}
+	body{
+		margin:0;
+		padding:0;
+		overflow-x: hidden;
+		font-family: 'Poppins', sans-serif;
+	}
+
+.main_container{
+	margin:1rem auto;
+	width:70%;
+}
+header{
+	padding: 2rem 0;
+}
+.scip_logo{
+	max-width: 12rem;
+	display: block;
+	margin:0 auto;
+	padding:1rem 0;
+}
+.ge_p{
+	font-size: 1.8rem;
+	color:black;
+	text-align: center;
+	line-height: 2.4rem;
+}
+.check_mark_section{
+	padding:3rem 0;
+}
+.check_mark_section ul li{
+	list-style: none;
+	font-size: 1.8rem;
+	display: inline-block;
+	margin-right:1rem;
+}
+
+.main_heading{
+	font-size: 2.6rem;
+}
+
+.get_started_section{
+	padding:2rem 0;
+}
+.get_started_section ul li{
+	list-style: none;
+	display:inline-block;
+	margin-right: 3rem;
+}
+.get_started_section ul li a img{
+	max-width: 7rem;
+}
+.rust_logo{
+	width:10rem;
+}
+.gen_link{
+	display: block;
+	font-size: 1.7rem;
+	padding:1.5rem;
+	text-decoration: none;
+}
+
+.discord_section{
+	padding:3rem 0;
+}
+
+.discord_logo{
+	max-width: 10rem;
+	display: block;
+	margin:0 auto;
+}
+.discord_badge{
+	margin-top:-1rem;
+	display: block;
+}
+.trusted_section{
+	padding:3rem 0;
+}
+.sub_heading{
+	font-size:1.8rem;
+	text-align: center;
+}
+
+.trusted_section ul li{
+	list-style: none;
+	display:inline-block;
+	margin-right: 3rem;
+}
+.trusted_section img{
+width: 14rem;
+}
+.copyright_text{
+	font-size: 1.5rem;
+	color:gray;
+}
+
+
+@media only screen and (max-width:992px){
+.main_container{
+		margin:0 auto;
+		width:100%;
+
+	}
+}
+@media only screen and (max-width:768px){
+	html{
+		font-size: 45.5%;
+	}
+	.main_container{
+		margin:0 auto;
+		width:100%;
+
+	}
+	.get_started_section ul li a img{
+	margin-bottom: 1rem;
+}
+}
