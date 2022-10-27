@@ -22,7 +22,7 @@ header{
 	padding:1rem 0;
 }
 .ge_p{
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	color:black;
 	text-align: center;
 	line-height: 2.4rem;
@@ -92,8 +92,9 @@ header{
 width: 14rem;
 }
 .copyright_text{
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color:gray;
+	padding:3rem 0;
 }
 
 
