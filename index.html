@@ -25,31 +25,11 @@
       <p class="ge_p">
         SCIP (pronunciation: "skip") is a language-agnostic protocol for indexing source code, <span class="d-inline d-lg-block"></span>which can be used to power code navigation functionality such as <span class="d-inline d-lg-block"></span> Go to definition, Find references, and Find implementations.
         <a class="gen_link" href="https://about.sourcegraph.com/blog/announcing-scip" target="_blank" rel="noopener noreferrer">Read more</a>
+        <a class="btn btn-primary btn-lg" role="button" aria-pressed="true" href="#" data-bs-toggle="modal" data-bs-target="#cliInfoModal">Install the CLI</a>
       </p>
       
     </header>
   <main>
-    <section class="check_mark_section text-center">
-      <ul>
-        <li>
-          <span class="check_mark_icon">&#9989;</span>
-          <span>LSIF compatible</span>
-        </li>
-        <li>
-          <span class="check_mark_icon">&#9989;</span>
-          <span>Less disk space</span>
-        </li>
-        <br>
-        <li>
-          <span class="check_mark_icon">&#9989;</span>
-          <span>Incremental indexing</span>
-        </li>
-        <li>
-          <span class="check_mark_icon">&#9989;</span>
-          <span>Cross-language navigation</span>
-        </li>
-      </ul>
-    </section>
     <section class="get_started_section text-center">
       <h1 class="main_heading">Get started</h1>
       <ul class="mt-4">
@@ -113,6 +93,33 @@
           </div>
           <div class="modal-body fs-4">
             Not production ready yet. <a href="https://github.com/zigtools/scip-zig" target="_blank" rel="noopener noreferrer">I understand</a>.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary fs-4" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="cliInfoModal" tabindex="-1" aria-labelledby="cliInfoModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-2" id="cliInfoModalLabel"> Installing the <code>scip</code> CLI</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body fs-4">
+            You can find binaries for the <code>scip</code> CLI tool <a href="https://github.com/sourcegraph/scip/releases" target="_blank" rel="noopener noreferrer">here</a>. You can also compile a binary locally using:
+
+<pre>
+  <code>
+git clone https://github.com/sourcegraph/scip.git --depth=1
+cd scip
+go build -o scip ./cmd
+  </code>
+</pre>
+
+            You can consult the <a href="https://sourcegraph.com/github.com/sourcegraph/scip/-/blob/docs/CLI.md" target="_blank" rel="noopener noreferrer">CLI reference</a> or --help for usage information</a>.
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary fs-4" data-bs-dismiss="modal">Close</button>
